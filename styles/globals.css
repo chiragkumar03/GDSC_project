@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  color: #000000;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 5rem;
+}
+
+.border {
+  border: 0.5px solid #0db760;
+  border-radius: 50%;
+}
+
+.poppins {
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.logo {
+  width: 78px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  align-items: center;
+  color: #0db760;
+}
+
+.button {
+  border: 3px solid #0db760;
+  border-radius: 2px;
+  width: 200px;
+  height: 56px;
+  border-radius: 2px;
+  font-family: "Poppins";
+}
